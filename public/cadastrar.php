@@ -3,7 +3,7 @@
 include("Conexaon.php");
 
 // Crear un nuevo registro en la tabla "productos"
-$sql = "INSERT INTO produto (nome_produto, preco_produto) value ('$nome_produto', '$preco_produto')";
+$sql = "INSERT INTO produto (nome_produto, preco_produto) VALUE ('$nome_produto', '$preco_produto')";
 $resultado = mysqli_query($conexion, $sql);
 
 // Verificar si se realizó el registro
