@@ -20,3 +20,5 @@ $total_pedido = $preco_produto * $quantidade_produtos;
 
 // Mostrar el total del pedido
 echo $total_pedido;
+
+?>

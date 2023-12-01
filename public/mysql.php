@@ -26,3 +26,4 @@ echo "</table>";
 
 // Cerrar la conexión a la base de datos
 mysqli_close($Conexaon);
+?>
